@@ -1,0 +1,11 @@
+version: '2'
+services:
+  react-front:
+    container_name: yourapp
+    restart: always
+    build: .
+    volumes:
+      - ./:/usr/src/yourapp
+      - /usr/src/yourapp/node_modules
+    ports:
+      - '80:80'

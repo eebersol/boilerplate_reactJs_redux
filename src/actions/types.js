@@ -1,0 +1,1 @@
+export const EXEMPLE_UPDATE_VIEW   = "EXEMPLE_UPDATE_VIEW";
